@@ -1,0 +1,49 @@
+/*
+    icon_width: 116px;
+    icon_height: 68px;
+    num_icons: 7
+
+*/
+html,body
+{
+    height: 100%;
+}
+
+body
+{
+    
+    background-color: rgb(2, 106, 138);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+   
+   
+}
+
+.slots
+{
+    border: 2px solid red;
+    background-color: black;
+    height: 237px;
+    width: 400px;
+    margin-left: 75px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    .reel
+    {
+        border: 2px solid red;
+        width: 116px;
+        height: 205px;
+        background-image: url('./assets/slot-reel.png');
+        background-repeat: repeat-y;
+        background-position: 0 0;
+
+    }
+    
+   
+}
